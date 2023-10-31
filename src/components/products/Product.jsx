@@ -1,15 +1,15 @@
-import React from 'react'
+import Card from 'react-bootstrap/Card';
 
-
-
-
-export default function Product() {
-    
-    const getData=(name)=>{
-    console.log(name);
+export default function Product(props) {
+ return (
+    <div className='col-md-3 mb-4 mt-4 centar'>
+    <Card style={{ width: '18rem' }} >
+      <Card.Img variant="top" src={props.image} className='wh-img' />
+      <Card.Body>
+        <Card.Title>{props.title}</Card.Title>
         
-    }
-  return (
-    <div>Product</div>
-  )
+      </Card.Body>
+    </Card>
+  </div>
+  );
 }
