@@ -1,15 +1,15 @@
-import Pizza from './pizza/Pizza.jsx'
-import Onion from './onion/Onion.jsx'
-import Salad from './salad/Salad.jsx'
+import Recipes from './recipes/Ricepes.jsx'
 
 export default function Restaurant() {
     return (
         <div className='container'>
-            <Pizza />
+            <Recipes title='pizza' />
             <hr></hr>
-            <Onion />
+            <Recipes title='salad' />
             <hr></hr>
-            <Salad />
+            <Recipes title='onion' />
+
+
         </div>
     )
 }

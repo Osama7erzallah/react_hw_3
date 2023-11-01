@@ -16,3 +16,15 @@
     height: 200px;
      object-fit: contain;
 }
+.view{
+  margin:0 10px 10px 10px;
+  width: 150px !important;
+  color: white;
+  background-color: #afafaf;
+  border: solid rgb(52, 0, 0) 1px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
